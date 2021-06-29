@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625007639564' stop='1625007679288'>
+    <name>Filling in the Free Demo form:</name>
+    <title>Filling in the Free Demo form:</title>
+    <test-cases>
+        <test-case start='1625007640469' status='passed' stop='1625007679281'>
+            <name>load homepage</name>
+            <title>load homepage</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625007640492' status='passed' stop='1625007647213'>
+                    <name>I am on page "https://geopal.com"</name>
+                    <title>I am on page "https://geopal.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007647213' status='passed' stop='1625007647860'>
+                    <name>I click "//li[@class="demobutton last"]"</name>
+                    <title>I click "//li[@class="demobutton last"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007647860' status='passed' stop='1625007649276'>
+                    <name>I fill field "//input[@name="firstname"]", "Stephen"</name>
+                    <title>I fill field "//input[@name="firstname"]", "Stephen"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007649277' status='passed' stop='1625007649666'>
+                    <name>I fill field "//input[@name="lastname"]", "O'Connell"</name>
+                    <title>I fill field "//input[@name="lastname"]", "O'Connell"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007649666' status='passed' stop='1625007649885'>
+                    <name>I fill field "//input[@name="organization"]", "Valve"</name>
+                    <title>I fill field "//input[@name="organization"]", "Valve"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007649885' status='passed' stop='1625007650502'>
+                    <name>I fill field "//input[@name="email"]", "stephenoconnell77@gmail.com"</name>
+                    <title>I fill field "//input[@name="email"]", "stephenoconnell77@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007650502' status='passed' stop='1625007650839'>
+                    <name>I fill field "//input[@name="phone"]", "0863118549"</name>
+                    <title>I fill field "//input[@name="phone"]", "0863118549"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007650839' status='passed' stop='1625007651030'>
+                    <name>I click "//p[@class="label"][contains(text(),"How did you hear about GeoPal?")]"</name>
+                    <title>I click "//p[@class="label"][contains(text(),"How did you hear about GeoPal?")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007651030' status='passed' stop='1625007651251'>
+                    <name>I click "//li[@data-index="2"]"</name>
+                    <title>I click "//li[@data-index="2"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007651252' status='passed' stop='1625007651265'>
+                    <name>I switch to "iframe"</name>
+                    <title>I switch to "iframe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007651265' status='passed' stop='1625007679015'>
+                    <name>I click "#recaptcha-anchor"</name>
+                    <title>I click "#recaptcha-anchor"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007679015' status='passed' stop='1625007679030'>
+                    <name>I wait for element ".recaptcha-checkbox-checkmark", 5</name>
+                    <title>I wait for element ".recaptcha-checkbox-checkmark", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007679030' status='passed' stop='1625007679281'>
+                    <name>I save screenshot "debug.png"</name>
+                    <title>I save screenshot "debug.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625007681680' stop='1625007683778'>
+    <name>Logi page loaded correctly:</name>
+    <title>Logi page loaded correctly:</title>
+    <test-cases>
+        <test-case start='1625007681680' status='passed' stop='1625007683770'>
+            <name>load login</name>
+            <title>load login</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625007681682' status='passed' stop='1625007682802'>
+                    <name>I am on page "https://geopal.com"</name>
+                    <title>I am on page "https://geopal.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007682803' status='passed' stop='1625007683020'>
+                    <name>I click "//a[@href="https://app2.geopalsolutions.com"]"</name>
+                    <title>I click "//a[@href="https://app2.geopalsolutions.com"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007683020' status='passed' stop='1625007683586'>
+                    <name>I switch to next tab 1</name>
+                    <title>I switch to next tab 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007683586' status='passed' stop='1625007683763'>
+                    <name>I click ".field"</name>
+                    <title>I click ".field"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007683763' status='passed' stop='1625007683770'>
+                    <name>I see element "#password"</name>
+                    <title>I see element "#password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

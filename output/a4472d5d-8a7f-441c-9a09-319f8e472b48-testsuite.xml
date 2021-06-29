@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625007683780' stop='1625007692237'>
+    <name>Search feature functionality:</name>
+    <title>Search feature functionality:</title>
+    <test-cases>
+        <test-case start='1625007683780' status='passed' stop='1625007692231'>
+            <name>Search Management Team</name>
+            <title>Search Management Team</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625007683781' status='passed' stop='1625007684919'>
+                    <name>I am on page "https://geopal.com"</name>
+                    <title>I am on page "https://geopal.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007684920' status='passed' stop='1625007688351'>
+                    <name>I click ".searchtrigger"</name>
+                    <title>I click ".searchtrigger"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007688351' status='passed' stop='1625007689327'>
+                    <name>I fill field "#edit-search-block-form--2", "Management Team"</name>
+                    <title>I fill field "#edit-search-block-form--2", "Management Team"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007689327' status='passed' stop='1625007691126'>
+                    <name>I click "#edit-submit-button"</name>
+                    <title>I click "#edit-submit-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007691126' status='passed' stop='1625007692231'>
+                    <name>I see element "//a[@href="https://www.geopal.com/management-team-0"][1][contains(text(),"Management Team")]"</name>
+                    <title>I see element "//a[@href="https://www.geopal.com/management-team-0"][1][contains(text(),"Management Team")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

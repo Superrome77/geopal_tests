@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625007692240' stop='1625007698899'>
+    <name>Functionality of first and last 'Solution' links:</name>
+    <title>Functionality of first and last 'Solution' links:</title>
+    <test-cases>
+        <test-case start='1625007692240' status='failed' stop='1625007698341'>
+            <name>load homepage</name>
+            <title>load homepage</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1625007692242' status='passed' stop='1625007693630'>
+                    <name>I am on page "https://geopal.com"</name>
+                    <title>I am on page "https://geopal.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1625007693630' status='failed' stop='1625007698341'>
+                    <name>I click "//a[@href="/solutions"]//ul[@class="dropdown-menu"]//li[0]"</name>
+                    <title>I click "//a[@href="/solutions"]//ul[@class="dropdown-menu"]//li[0]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='70b71c5c-be2a-4e38-8825-0eca5c821644-attachment.png' type='image/png' size='899836'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "//a[@href="/solutions"]//ul[@class="dropdown-menu"]//li[0]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "//a[@href="/solutions"]//ul[@class="dropdown-menu"]//li[0]" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\Hue Linh Nguyen\Documents\create-codeceptjs-master_copy\create-codeceptjs-master\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\Users\Hue Linh Nguyen\Documents\create-codeceptjs-master_copy\create-codeceptjs-master\node_modules\codeceptjs\lib\helper\Playwright.js:2522:11)
+                    at Playwright.proceedClick (C:\Users\Hue Linh Nguyen\Documents\create-codeceptjs-master_copy\create-codeceptjs-master\node_modules\codeceptjs\lib\helper\Playwright.js:2280:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
